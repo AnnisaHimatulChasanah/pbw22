@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-image: url(moon1.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+}
+button{
+    margin-top: 3px;
+    text-decoration: none;
+    color:cadetblue;
+    padding: 5px 20px;
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: black;
+}
+.contents h2{
+    color: slategray;
+    font-size: 30px;
+}
