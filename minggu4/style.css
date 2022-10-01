@@ -1,0 +1,29 @@
+body{
+    background-color: azure;
+}
+.wrap{
+    width: 60%;
+    margin: auto;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkcyan;
+}
+.container{
+    padding: 5px;
+    margin: 10%;
+}
+table{
+    margin: auto;
+    padding-bottom: 5px;
+}
+table td{
+    padding: 5px;
+}
+button{
+    width: 50px;
+    font-family: comic sans ms;
+    height: 30px;
+    background-color: #00ffff;
+    border-radius: 7px;
+}
