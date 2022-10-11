@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(66, 96, 114);
+        }
+        button{
+            margin-top: 3px;
+            text-decoration: none;
+            color:cadetblue;
+            padding: 5px 20px;
+            border: 2px solid cadetblue;
+            border-radius: 20px;
+            transition: 0.6s;
+            margin: 5px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: black;
+        }
+    </style>
+    <body>
+        <header>
+        <div class="contents">
+        <br><h2 align = "center">Mini Vlog - a day in my life</h2><br>
+        <center><video width="600" height="315" id="myVideo">
+            <source src="vlog_mylife.mp4" type="video/mp4"> </center>
+        </video></div>
+        <p>
+            <ul>
+            <center><button onclick="playVid()" type="button">Play Video</button>
+            <button onclick="pauseVid()" type="button">Pause Video</button>
+            <button onclick="enableControls()" type="button">Enable controls</button>
+            <button onclick="disableControls()" type="button">Disable controls</button>
+            <button onclick="enableMute()" type="button">Mute Sound</button>
+            <button onclick="disableMute()" type="button">Enable Mute</button></center></ul>
+        </p><br>
+        </header>
+    </body>
+    <script>
+        var vid = document.getElementById("myVideo");
+
+        function playVid(){
+            vid.play();
+        }
+
+        function pauseVid(){
+            vid.pause();
+        }
+
+        function enableControls() { 
+            vid.controls = true;
+            vid.load();
+        } 
+
+        function disableControls(){
+            vid.controls = false;
+            vid.load();
+        }
+
+        function enableMute(){
+            vid.muted = true;
+        }
+
+        function disableMute(){
+            vid.muted = false;
+        }
+    </script>
+</html>
