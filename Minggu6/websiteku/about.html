@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Project Pemrograman Website</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        section{
+            position: relative;
+            width: 100%;
+            
+        }
+        table, thead, tbody, tr, td, th{
+            border: 1px solid black;
+            width: 50%;
+        }
+        nav, a{
+            padding: 10px 10px;
+            width: 100%;
+            text-align: center;
+            top: 0;
+            right: 0;
+            text-decoration: none;
+            font-size: 20px;
+            color: palevioletred;
+        }
+        nav a:hover{
+            color: black;
+            background: floralwhite;
+        }
+        section.section2{
+           height: auto;
+           padding-bottom: 120px;
+           background: #fff; 
+        }
+        .avatar{
+            height: 200px;
+            width: 200px;
+            margin: 0px auto;
+            background: url(aku.jpeg)center;
+            border: 8px solid lightpink;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: local;
+            border-radius: 50%;
+        }
+        .leftmenu{
+            width: 47%;
+            text-align: right;
+            display: inline-block;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .right-menu{
+            text-align: left;
+            width: 46%;
+            display: inline-block;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-top: 0px;
+        }
+        .content {
+            scroll-behavior: smooth;
+            margin-left: 150px;
+            margin-right: 150px;
+            width: auto;
+        }
+        .title-content {
+            font-size: 40px;
+            text-align: center;
+            font-family: Helvetica Neue , Helvetica;
+            color:rgb(0, 177, 195) ;
+        }
+        h2{
+            text-align: left;
+        }
+        .video, h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="CV.pdf">Download CV</a>
+        <a href="kontak.html">Contact</a>
+        <a href="about.html">About Me</a>
+    </nav>
+    <hr>
+    <div id="aboutme"></div>
+    <section class="section2">
+        <div class="content">
+            <div>
+                <h1 class="title-content">About Me</h1>
+                <div class="leftmenu">
+                    <div class="avatar"></div>
+                </div>
+                <div class="right-menu">
+                    <p >Hallo! :) <br>
+                     Perkenalkan saya Nisa. Saat ini saya masih menempuh pendidikan S-1 Teknik Informatika di Univeristas Dian Nuswantoro. Domisili saya di Kabupaten Karawang Saya ingin menguasai HTML, CSS, C++ dan Javascript.</p>
+                     <p>Saya lahir pada bulan Juni tanggal 15 tahun 2003 bertempat di Sragen, Jawa Tengah Indonesia</p>
+                     <p>Tetapi saya tinggal di Karawang</p>
+                     <br>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <h2>Mini Vlog</h2>
+            <video controls width="600" height="315">
+                <source src="vlog_mylife.mp4" type="video/webm">
+            </video>
+        </div> 
+    </section>
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2022 Annisa Himatul Chasanah</p>
+    </footer>
+</body>
+</html>

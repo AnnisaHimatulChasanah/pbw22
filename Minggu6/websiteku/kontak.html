@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Project Pemrograman Website</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        nav, a{
+            padding: 10px 10px;
+            width: 100%;
+            text-align: center;
+            top: 0;
+            right: 0;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        body{
+            background: lightgrey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 10px;
+            height: 100vh;
+            margin: 20px 0 50px;
+            padding: 10px;
+        }
+        .container{
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px rgba(0, 0, 0, 0.22);
+            position: relative;
+            overflow: hidden;
+            width: 768px;
+            max-width: 100%;
+            min-height: 522px;
+            min-width: 370px;
+        }
+        .card-container{
+            display: flex;
+        }
+        .left{
+            flex: 1;
+            height: 480px;
+            background-color: darkseagreen;
+        }
+        .right{
+            display: flex;
+            flex: 1;
+            height: 460px;
+            background-color: #fff;
+            justify-content: center;
+            align-items: center;
+        }
+        .left{
+            display: flex;
+            flex: 1;
+            height: 522px;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        .left-container{
+            height: 50%;
+            width: 80%;
+            text-align: center;
+            line-height: 22px;
+        }
+        .left p{
+            font-size: 0.9rem;
+        }
+        .right-container{
+            width: 70%;
+            height: 80%;
+            text-align: center;
+        }
+        input, textarea{
+            background-color: lightgray;
+            border: none;
+            padding: 12px 15px;
+            margin: 8px 0;
+            width: 100%;
+            font-size: 0.8rem;
+        }
+        input:focus, textarea:focus{
+            outline: 1px solid darkgoldenrod;
+        }
+        button{
+            border-radius: 20px;
+            border: 1px solid lightgray;
+            background-color: lightgray;
+            color: #fff;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 12px 45px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: transform 80ms ease-out;
+        }
+        button:hover{
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="CV.pdf">Download CV</a>
+        <a href="kontak.html">Contact</a>
+        <a href="about.html">About Me</a>
+    </nav>
+    <div class="container">
+        <div class="card-container">
+            <div class="left">
+                <div>
+                    <h2>KONTAK</h2>
+                    <p>
+                        Ini Website pertama yang aku buat!
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-container">
+                    <form action="">
+                        <h2>Hubungi Saya</h2>
+                        <input type="text" placeholder="Nama">
+                        <input type="email" placeholder="Alamat Email">
+                        <input type="Alamat" placeholder="Alamat">
+                        <input type="phone" placeholder="Telepon">
+                        <textarea rows="10" placeholder="Pesan"></textarea>
+                        <button>Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
