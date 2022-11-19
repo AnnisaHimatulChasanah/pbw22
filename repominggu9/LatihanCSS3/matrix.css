@@ -1,0 +1,32 @@
+body{
+    background: rgba(170, 95, 134, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h1, h2{
+    color: white;
+}
+.ketengah{
+    padding: 10px auto;
+    width: 1150px;
+}
+.kotak1{
+    background: rgba(80, 114, 198, 0.8);
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+}
+.kotak2{
+    background: rgba(80, 114, 198, 0.8);
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
+    transform: matrix(1,2,-1,1,5,4);
+    -webkit-transform: matrix(1,2,-1,1,5,4);
+    -ms-transform: matrix(1,2,-1,1,5,4);
+}

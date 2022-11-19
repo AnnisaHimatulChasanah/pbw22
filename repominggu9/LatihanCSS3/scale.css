@@ -1,0 +1,31 @@
+body{
+    background: #DB7093;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h1,h2{
+    color: lightpink;
+}
+.ketengah{
+    margin: 10px auto;
+    width: 1150px;
+}
+.kotak1{
+    background: #F08080;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+}
+.kotak2{
+    background: #FA8072;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    transform: scale(2, 2);
+    -webkit-transform: scale(2, 3);
+    -ms-transform: scale(2, 3);
+}
