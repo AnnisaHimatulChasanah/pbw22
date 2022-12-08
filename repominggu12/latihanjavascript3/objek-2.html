@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Objek JavaScript</title>
+
+    <script>
+      function person(firstname, lastname) {
+        //properti
+        this.firstname = firstname;
+        this.lastname = lastname;
+
+        //method
+        this.fullname = function () {
+          return `${this.firstname} ${this.lastname}`;
+        };
+        this.showname = function () {
+          document.write(this.fullname());
+        };
+      }
+
+      var person1 = new person("Annisa", "Himatul");
+      var person2 = new person("Belajar", "JavaScript");
+
+      person1.showname();
+      document.write("<br>");
+      person2.showname();
+    </script>
+  </head>
+  <body></body>
+</html>

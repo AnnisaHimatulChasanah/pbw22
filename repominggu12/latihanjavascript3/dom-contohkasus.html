@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DOM API JavaScript</title>
+  </head>
+  <body>
+    <h1>Aplikasi Ubah Nama</h1>
+    <label>Warna latar : </label>
+    <input type="color" id="bg-color" />
+    <br />
+    <label>Warna Teks : </label>
+    <input type="color" id="text-color" />
+
+    <script>
+      var bgColor = document.getElementById("bg-color");
+      var textColor = document.getElementById("text-color");
+
+      bgColor.addEventListener("change", (event) => {
+        document.body.style.backgroundColor = bgColor.value;
+      });
+      textColor.addEventListener("change", (event) => {
+        document.body.style.color = textColor.value;
+      });
+    </script>
+  </body>
+</html>
