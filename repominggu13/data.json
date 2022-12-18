@@ -1,0 +1,62 @@
+[
+  {
+    "nim": "A11.2022.13980",
+    "nama": "Annisa Himatul Chasanah",
+    "alamat": "Karawang",
+    "jurusan": "Teknik Informatika",
+    "MK": [
+      {
+        "mk_kode": "101",
+        "nama_mk": "SISTEM BASIS DATA"
+      },
+      {
+        "mk_kode": "102",
+        "nama_mk": "ALJABAR LINIER"
+      },
+      {
+        "mk_kode": "103",
+        "nama_mk": "ANALISA ALGORITMA"
+      },
+      {
+        "mk_kode": "104",
+        "nama_mk": "KECERDASAN BUATAN"
+      },
+      {
+        "mk_kode": "105",
+        "nama_mk": "JARINGAN KOMPUTER"
+      },
+      {
+        "mk_kode": "106",
+        "nama_mk": "KALKULUS"
+      }
+    ]
+  },
+  {
+    "nim": "A11.2022.13977",
+    "nama": "Amalia Dwi Mareta",
+    "alamat": "Rembang",
+    "jurusan": "Teknik Informatika",
+    "MK": [
+      {
+        "mk_kode": "301",
+        "nama_mk": "MATEMATIKA DISKRIT"
+      },
+      {
+        "mk_kode": "302",
+        "nama_mk": "DASAR-DASAR KOMPUTASI"
+      },
+      {
+        "mk_kode": "303",
+        "nama_mk": "DASAR PEMROGRAMAN"
+      },
+      {
+        "mk_kode": "304",
+        "nama_mk": "KALKULUS 1"
+      },
+      {
+        "mk_kode": "305",
+        "nama_mk": "PEMROGRAMAN BERBASIS WEB"
+      }
+    ]
+  }
+]
