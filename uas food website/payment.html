@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        background-color: #edede9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="payment">
+      <h2>Payment Form</h2>
+      <form action="" method="post">
+        <!-- acoount information start -->
+        <h4>Account</h4>
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="text"
+              placeholder="Nama Lengkap"
+              required
+              class="name"
+            />
+            <i class="fa fa-user icon"></i>
+          </div>
+          <div class="input_box">
+            <input
+              type="text"
+              placeholder="Nama On Card"
+              required
+              class="name"
+            />
+            <i class="fa fa-user icon"></i>
+          </div>
+        </div>
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="email"
+              placeholder="Email Address"
+              required
+              class="name"
+            />
+            <i class="fa fa-envelope icon"></i>
+          </div>
+        </div>
+        <div class="input_group">
+          <div class="input_box">
+            <input type="text" placeholder="Alamat" required class="name" />
+            <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="input_group">
+          <div class="input_box">
+            <input type="text" placeholder="Kabupaten" required class="name" />
+            <i class="fa fa-institution icon"></i>
+          </div>
+        </div>
+        <!-- acoount information end -->
+
+        <!-- Tanggal Lahir start-->
+        <div class="input_group">
+          <div class="input_box">
+            <h4>Tanggal Lahir</h4>
+            <input type="text" placeholder="Tgl" required class="dob" />
+            <input type="text" placeholder="Bulan" required class="dob" />
+            <input type="text" placeholder="Tahun" required class="dob" />
+          </div>
+          <div class="input_box">
+            <h4>Jenis Kelamin</h4>
+            <input type="radio" name="gender" required class="radio" id="b1" />
+            <label for="b1">Male</label>
+            <input type="radio" name="gender" required class="radio" id="b2" />
+            <label for="b2">Female</label>
+          </div>
+        </div>
+        <!-- Tanggal Lahir end-->
+
+        <!-- Detail Pembayaran start-->
+        <div class="input_group">
+          <div class="input_box">
+            <h4>Detail Pembayaran</h4>
+            <input type="radio" name="pay" class="radio" id="bc1" checked />
+            <label for="bc1"
+              ><span><i class="fa fa-cc-visa">Credit Card</i> </span></label
+            >
+            <input type="radio" name="pay" class="radio" id="bc2" />
+            <label for="bc2"
+              ><span><i class="fa fa-cc-paypal">Paypal</i> </span></label
+            >
+          </div>
+        </div>
+
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="text"
+              class="name"
+              placeholder="Nomor Rekening"
+              required
+            />
+            <i class="fa fa-credit-card icon"></i>
+          </div>
+        </div>
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="text"
+              class="name"
+              placeholder="Total Pesanan"
+              required
+            />
+            <i class="fa fa-envelope-o icon"></i>
+          </div>
+          <div class="input_box">
+            <input
+              type="text"
+              class="name"
+              placeholder="Total Bayar"
+              required
+            />
+            <i class="fa fa-credit-card icon"></i>
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input_box">
+            <button type="submit">Bayar Sekarang</button>
+          </div>
+        </div>
+        <!-- Detail Pembayaran end -->
+      </form>
+    </div>
+  </body>
+</html>
